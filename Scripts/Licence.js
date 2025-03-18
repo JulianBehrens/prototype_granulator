@@ -3,9 +3,9 @@
 namespace Activation
 {
 	// Set the base URL we'll use later on when we'll send the activation data
-	Server.setBaseURL("https://api.lemonsqueezy.com");
+	//Server.setBaseURL("https://api.lemonsqueezy.com");
 	// Set the HTTP header according to Lemon Squeezy's API docs
-	Server.setHttpHeader("Accept: application/json");
+	//Server.setHttpHeader("Accept: application/json");
 	
 	// We'll store the user license details in a file in the AppData folder, so we'll be able to periodically check if the plugin has been correctly activated
 	const appData = FileSystem.getFolder(FileSystem.AppData);
@@ -405,7 +405,7 @@ namespace Activation
 	*/
 }
 
-Activation.checkOnLoad();
+//Activation.checkOnLoad();
 
 namespace ActivationDesign
 {
