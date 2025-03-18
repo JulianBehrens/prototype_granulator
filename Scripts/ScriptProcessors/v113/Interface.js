@@ -7,12 +7,10 @@ Content.setUseHighResolutionForPanels(true);
 Engine.loadNextUserPreset(true);
 
 
-
-
 include("BrowserLAF.js");
 include("Icons.js");
-include("Licence.js");;
-
+include("Licence.js");
+include("SupabaseLicense.js");
 
 //custom fonts
 
