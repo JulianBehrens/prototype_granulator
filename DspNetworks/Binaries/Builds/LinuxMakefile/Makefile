@@ -35,7 +35,7 @@ ifeq ($(CONFIG),Debug)
     TARGET_ARCH := 
   endif
 
-  JUCE_CPPFLAGS := $(DEPFLAGS) "-DLINUX=1" "-DDEBUG=1" "-D_DEBUG=1" "-D%USE_IPP_LINUX%" "-DJUCER_LINUX_MAKE_6D53C8B4=1" "-DJUCE_APP_VERSION=1.0.0" "-DJUCE_APP_VERSION_HEX=0x10000" $(shell pkg-config --cflags freetype2 x11 xinerama xext) -pthread -I../../JuceLibraryCode -I/Users/julianbehrens/Documents/Audio\ Programming/HISE-develop -I/Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules -I/Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo -I/Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common $(CPPFLAGS)
+  JUCE_CPPFLAGS := $(DEPFLAGS) "-DLINUX=1" "-DDEBUG=1" "-D_DEBUG=1" "-DJUCER_LINUX_MAKE_6D53C8B4=1" "-DJUCE_APP_VERSION=1.0.0" "-DJUCE_APP_VERSION_HEX=0x10000" $(shell pkg-config --cflags freetype2 x11 xinerama xext) -pthread -I../../JuceLibraryCode -I/Volumes/WD_BLACK/GitHub/HISE -I/Volumes/WD_BLACK/GitHub/HISE/JUCE/modules -I/Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo -I/Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common $(CPPFLAGS)
   JUCE_CPPFLAGS_DYNAMIC_LIBRARY :=  "-DJucePlugin_Build_VST=0" "-DJucePlugin_Build_VST3=0" "-DJucePlugin_Build_AU=0" "-DJucePlugin_Build_AUv3=0" "-DJucePlugin_Build_RTAS=0" "-DJucePlugin_Build_AAX=0" "-DJucePlugin_Build_Standalone=0" "-DJucePlugin_Build_Unity=0"
   JUCE_CFLAGS_DYNAMIC_LIBRARY := -fPIC -fvisibility=hidden
   JUCE_LDFLAGS_DYNAMIC_LIBRARY := -shared
@@ -58,7 +58,7 @@ ifeq ($(CONFIG),Release)
     TARGET_ARCH := 
   endif
 
-  JUCE_CPPFLAGS := $(DEPFLAGS) "-DLINUX=1" "-DNDEBUG=1" "-D%USE_IPP_LINUX%" "-DJUCER_LINUX_MAKE_6D53C8B4=1" "-DJUCE_APP_VERSION=1.0.0" "-DJUCE_APP_VERSION_HEX=0x10000" $(shell pkg-config --cflags freetype2 x11 xinerama xext) -pthread -I../../JuceLibraryCode -I/Users/julianbehrens/Documents/Audio\ Programming/HISE-develop -I/Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules -I/Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo -I/Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common $(CPPFLAGS)
+  JUCE_CPPFLAGS := $(DEPFLAGS) "-DLINUX=1" "-DNDEBUG=1" "-DJUCER_LINUX_MAKE_6D53C8B4=1" "-DJUCE_APP_VERSION=1.0.0" "-DJUCE_APP_VERSION_HEX=0x10000" $(shell pkg-config --cflags freetype2 x11 xinerama xext) -pthread -I../../JuceLibraryCode -I/Volumes/WD_BLACK/GitHub/HISE -I/Volumes/WD_BLACK/GitHub/HISE/JUCE/modules -I/Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo -I/Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common $(CPPFLAGS)
   JUCE_CPPFLAGS_DYNAMIC_LIBRARY :=  "-DJucePlugin_Build_VST=0" "-DJucePlugin_Build_VST3=0" "-DJucePlugin_Build_AU=0" "-DJucePlugin_Build_AUv3=0" "-DJucePlugin_Build_RTAS=0" "-DJucePlugin_Build_AAX=0" "-DJucePlugin_Build_Standalone=0" "-DJucePlugin_Build_Unity=0"
   JUCE_CFLAGS_DYNAMIC_LIBRARY := -fPIC -fvisibility=hidden
   JUCE_LDFLAGS_DYNAMIC_LIBRARY := -shared
@@ -78,6 +78,7 @@ OBJECTS_DYNAMIC_LIBRARY := \
   $(JUCE_OBJDIR)/include_hi_dsp_library_02_61324ec.o \
   $(JUCE_OBJDIR)/include_hi_tools_01_aabcc84d.o \
   $(JUCE_OBJDIR)/include_hi_tools_02_aacadfce.o \
+  $(JUCE_OBJDIR)/include_hi_tools_03_aad8f74f.o \
   $(JUCE_OBJDIR)/include_juce_audio_basics_8a4e984a.o \
   $(JUCE_OBJDIR)/include_juce_audio_formats_15f82001.o \
   $(JUCE_OBJDIR)/include_juce_core_f26d17db.o \
@@ -128,6 +129,11 @@ $(JUCE_OBJDIR)/include_hi_tools_01_aabcc84d.o: ../../JuceLibraryCode/include_hi_
 $(JUCE_OBJDIR)/include_hi_tools_02_aacadfce.o: ../../JuceLibraryCode/include_hi_tools_02.cpp
 	-$(V_AT)mkdir -p $(JUCE_OBJDIR)
 	@echo "Compiling include_hi_tools_02.cpp"
+	$(V_AT)$(CXX) $(JUCE_CXXFLAGS) $(JUCE_CPPFLAGS_DYNAMIC_LIBRARY) $(JUCE_CFLAGS_DYNAMIC_LIBRARY) -o "$@" -c "$<"
+
+$(JUCE_OBJDIR)/include_hi_tools_03_aad8f74f.o: ../../JuceLibraryCode/include_hi_tools_03.cpp
+	-$(V_AT)mkdir -p $(JUCE_OBJDIR)
+	@echo "Compiling include_hi_tools_03.cpp"
 	$(V_AT)$(CXX) $(JUCE_CXXFLAGS) $(JUCE_CPPFLAGS_DYNAMIC_LIBRARY) $(JUCE_CFLAGS_DYNAMIC_LIBRARY) -o "$@" -c "$<"
 
 $(JUCE_OBJDIR)/include_juce_audio_basics_8a4e984a.o: ../../JuceLibraryCode/include_juce_audio_basics.cpp

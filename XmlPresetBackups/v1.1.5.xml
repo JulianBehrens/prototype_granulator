@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Processor Type="SynthChain" ID="v1.1.5" Bypassed="0" Gain="1.0" Balance="0.0"
+           VoiceLimit="64.0" KillFadeTime="20.0" IconColour="0" packageName=""
+           BuildVersion="650">
+  <ChildProcessors>
+    <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+      <ChildProcessors>
+        <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
+          <ChildProcessors/>
+          <Content>
+            <Control type="ScriptSliderPack" id="SliderPack1" value="13.0" data="64....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+."/>
+            <Control type="ScriptSlider" id="trigger speed" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob4b" value="11.0"/>
+            <Control type="ScriptSlider" id="Knob4a" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob3" value="19.0"/>
+            <Control type="ScriptSlider" id="Knob1" value="10.0"/>
+            <Control type="ScriptSlider" id="Knob7a" value="8.0"/>
+            <Control type="ScriptSlider" id="Knob8a" value="5.0"/>
+            <Control type="ScriptSlider" id="Knob6" value="0.2000000029802322"/>
+            <Control type="ScriptSlider" id="Knob5" value="25.0"/>
+            <Control type="ScriptSlider" id="Knob2" value="0.0"/>
+            <Control type="ScriptButton" id="Buttonsync" value="0.0"/>
+            <Control type="ScriptSlider" id="grainsize1" value="37.0"/>
+            <Control type="ScriptButton" id="Buttonsync1" value="1.0"/>
+            <Control type="ScriptSlider" id="main_dial" value="0.7900000214576721"/>
+            <Control type="ScriptSlider" id="Knob9" value="0.6800000071525574"/>
+            <Control type="ScriptSlider" id="Knob7b" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob8b" value="0.0"/>
+          </Content>
+          <UIData Source="v1.1.5UIData"/>
+        </Processor>
+        <Processor Type="MidiMuter" ID="MidiMuter1" Bypassed="0">
+          <ChildProcessors/>
+          <Content>
+            <Control type="ScriptButton" id="ignoreButton" value="0.0"/>
+            <Control type="ScriptButton" id="fixStuckNotes" value="0.0"/>
+          </Content>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="1" Intensity="0.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="EffectChain" ID="FX" Bypassed="0">
+      <ChildProcessors>
+        <Processor Type="Analyser" ID="Analyser1" Bypassed="0" BufferSize="8192.0"
+                   PreviewType="2.0">
+          <ChildProcessors/>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+        </Processor>
+        <Processor Type="Analyser" ID="Analyser3" Bypassed="0" BufferSize="4096.0"
+                   PreviewType="2.0">
+          <ChildProcessors/>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+        </Processor>
+        <Processor Type="Hardcoded Master FX" ID="grains" Bypassed="0" Network="mod_fx"
+                   ModSpeed="0.0" TempoSync="0.0" GrainSize="37.0" Pitch="0.0" Offset="10.0"
+                   Engine1DryWet="19.0" Delay_Mix="25.0" Delay_Sync="1.0" Delay_Feedback="0.6800000071525574"
+                   SpeedL="8.0" SpeedR="5.0" Accent="0.2000000029802322" SpeedA="11.0"
+                   SpeedB="0.0" Speed_LA="0.0" Speed_RA="0.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="P1 Modulation" Bypassed="1" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+          <SliderPacks>
+            <SliderPack EmbeddedData="64....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+."/>
+            <SliderPack EmbeddedData="64....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+."/>
+            <SliderPack EmbeddedData="8..........9C"/>
+          </SliderPacks>
+        </Processor>
+        <Processor Type="Analyser" ID="Analyser2" Bypassed="0" BufferSize="4096.0"
+                   PreviewType="2.0">
+          <ChildProcessors/>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+  </ChildProcessors>
+  <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+  <macro_controls>
+    <macro name="Macro 1" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 2" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 3" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 4" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 5" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 6" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 7" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 8" value="0.0" midi_cc="-1"/>
+  </macro_controls>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Processor>

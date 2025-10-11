@@ -1,484 +1,484 @@
 dependencies: \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/Binaries/JuceLibraryCode/include_juce_gui_basics.mm \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/Binaries/JuceLibraryCode/AppConfig.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/juce_gui_basics.mm \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/juce_gui_basics.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/juce_graphics.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/juce_core.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/system/juce_TargetPlatform.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/native/juce_BasicNativeHeaders.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/system/juce_StandardHeader.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/system/juce_CompilerSupport.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/system/juce_CompilerWarnings.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/system/juce_PlatformDefs.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_Memory.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/maths/juce_MathsFunctions.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_ByteOrder.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_Atomic.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_CharacterFunctions.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_CharPointer_UTF8.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_CharPointer_UTF16.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_CharPointer_UTF32.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_CharPointer_ASCII.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_String.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_StringRef.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/logging/juce_Logger.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/logging/juce_AudioThreadGuard.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_LeakedObjectDetector.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_ContainerDeletePolicy.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_HeapBlock.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_MemoryBlock.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_ReferenceCountedObject.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_ScopedPointer.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_OptionalScopedPointer.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_ScopedValueSetter.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_Singleton.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_WeakReference.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_ScopedLock.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_CriticalSection.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/maths/juce_Range.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/maths/juce_NormalisableRange.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/maths/juce_StatisticsAccumulator.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_ElementComparator.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_ArrayAllocationBase.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_ArrayBase.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_Array.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_LinkedListPointer.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_ListenerList.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_OwnedArray.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_ReferenceCountedArray.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_SortedSet.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_SparseSet.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_AbstractFifo.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_SingleThreadedAbstractFifo.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_NewLine.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_StringPool.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_Identifier.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_StringArray.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/system/juce_SystemStats.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_HeavyweightLeakedObjectDetector.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_StringPairArray.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_TextDiff.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_LocalisedStrings.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_Base64.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/misc/juce_Functional.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/misc/juce_Result.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/misc/juce_Uuid.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/misc/juce_ConsoleApplication.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_Variant.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_NamedValueSet.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_DynamicObject.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_HashMap.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/time/juce_RelativeTime.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/time/juce_Time.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/streams/juce_InputStream.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/streams/juce_OutputStream.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/streams/juce_BufferedInputStream.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/streams/juce_MemoryInputStream.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/streams/juce_MemoryOutputStream.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/streams/juce_SubregionStream.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/streams/juce_InputSource.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/files/juce_File.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/files/juce_DirectoryIterator.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/files/juce_RangedDirectoryIterator.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/files/juce_FileInputStream.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/files/juce_FileOutputStream.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/files/juce_FileSearchPath.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/files/juce_MemoryMappedFile.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/files/juce_TemporaryFile.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/files/juce_FileFilter.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/files/juce_WildcardFileFilter.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/streams/juce_FileInputSource.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/logging/juce_FileLogger.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/javascript/juce_JSON.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/javascript/juce_Javascript.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/maths/juce_BigInteger.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/maths/juce_Expression.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/maths/juce_Random.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/misc/juce_RuntimePermissions.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/misc/juce_WindowsRegistry.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_ChildProcess.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_DynamicLibrary.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_HighResolutionTimer.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_InterProcessLock.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_Process.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_SpinLock.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_WaitableEvent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_Thread.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_ThreadLocalValue.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_ThreadPool.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_TimeSliceThread.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_ReadWriteLock.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_ScopedReadLock.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_ScopedWriteLock.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/network/juce_IPAddress.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/network/juce_MACAddress.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/network/juce_NamedPipe.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/network/juce_Socket.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/network/juce_URL.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/network/juce_WebInputStream.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/streams/juce_URLInputSource.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/time/juce_PerformanceCounter.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/unit_tests/juce_UnitTest.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/xml/juce_XmlDocument.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/xml/juce_XmlElement.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/zip/juce_GZIPCompressorOutputStream.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/zip/juce_GZIPDecompressorInputStream.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/zip/juce_ZipFile.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_PropertySet.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_SharedResourcePointer.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_AllocationHooks.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_Reservoir.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/native/juce_mac_ObjCHelpers.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/native/juce_mac_CFHelpers.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_events/juce_events.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_events/messages/juce_MessageManager.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_events/messages/juce_Message.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_events/messages/juce_MessageListener.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_events/messages/juce_CallbackMessage.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_events/messages/juce_DeletedAtShutdown.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_events/messages/juce_NotificationType.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_events/messages/juce_ApplicationBase.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_events/messages/juce_Initialisation.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_events/messages/juce_MountedVolumeListChangeDetector.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_events/broadcasters/juce_ActionBroadcaster.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_events/broadcasters/juce_ActionListener.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_events/broadcasters/juce_AsyncUpdater.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_events/broadcasters/juce_ChangeListener.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_events/broadcasters/juce_ChangeBroadcaster.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_events/timers/juce_Timer.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_events/timers/juce_MultiTimer.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_events/interprocess/juce_InterprocessConnection.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_events/interprocess/juce_InterprocessConnectionServer.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_events/interprocess/juce_ConnectedChildProcess.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_events/interprocess/juce_NetworkServiceDiscovery.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_events/native/juce_ScopedLowPowerModeDisabler.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/geometry/juce_AffineTransform.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/geometry/juce_Point.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/geometry/juce_Line.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/geometry/juce_Rectangle.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/geometry/juce_Parallelogram.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/placement/juce_Justification.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/geometry/juce_Path.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/geometry/juce_RectangleList.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/colour/juce_PixelFormats.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/colour/juce_Colour.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/colour/juce_ColourGradient.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/colour/juce_Colours.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/geometry/juce_BorderSize.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/geometry/juce_EdgeTable.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/geometry/juce_PathIterator.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/geometry/juce_PathStrokeType.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/placement/juce_RectanglePlacement.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/images/juce_ImageCache.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/images/juce_ImageConvolutionKernel.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/images/juce_ImageFileFormat.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/fonts/juce_Typeface.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/fonts/juce_Font.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/fonts/juce_AttributedString.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/fonts/juce_GlyphArrangement.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/fonts/juce_TextLayout.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/fonts/juce_CustomTypeface.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/contexts/juce_GraphicsContext.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/contexts/juce_LowLevelGraphicsContext.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/images/juce_Image.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/images/juce_ScaledImage.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/colour/juce_FillType.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/native/juce_RenderingHelpers.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/contexts/juce_LowLevelGraphicsSoftwareRenderer.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/contexts/juce_LowLevelGraphicsPostScriptRenderer.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/effects/juce_ImageEffectFilter.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/effects/juce_DropShadowEffect.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/effects/juce_GlowEffect.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/native/juce_mac_CoreGraphicsHelpers.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_graphics/native/juce_mac_CoreGraphicsContext.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_data_structures/juce_data_structures.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_data_structures/undomanager/juce_UndoableAction.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_data_structures/undomanager/juce_UndoManager.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_data_structures/values/juce_Value.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_data_structures/values/juce_ValueTree.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_data_structures/values/juce_ValueTreeSynchroniser.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_data_structures/values/juce_CachedValue.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_data_structures/values/juce_ValueWithDefault.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_data_structures/app_properties/juce_PropertiesFile.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_data_structures/app_properties/juce_ApplicationProperties.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/mouse/juce_MouseCursor.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/mouse/juce_MouseListener.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/keyboard/juce_ModifierKeys.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/mouse/juce_MouseInputSource.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/mouse/juce_MouseEvent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/keyboard/juce_KeyPress.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/keyboard/juce_KeyListener.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/components/juce_ComponentTraverser.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/components/juce_FocusTraverser.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/components/juce_ModalComponentManager.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/components/juce_ComponentListener.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/components/juce_CachedComponentImage.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/components/juce_Component.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_ComponentAnimator.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/desktop/juce_Desktop.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/desktop/juce_Displays.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_ComponentBoundsConstrainer.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/mouse/juce_ComponentDragger.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/mouse/juce_DragAndDropTarget.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/mouse/juce_DragAndDropContainer.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/mouse/juce_FileDragAndDropTarget.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/mouse/juce_SelectedItemSet.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/mouse/juce_MouseInactivityDetector.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/mouse/juce_TextDragAndDropTarget.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/mouse/juce_TooltipClient.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/keyboard/juce_CaretComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/keyboard/juce_KeyboardFocusTraverser.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/keyboard/juce_SystemClipboard.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/keyboard/juce_TextEditorKeyMapper.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/keyboard/juce_TextInputTarget.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandID.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandInfo.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandTarget.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandManager.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/commands/juce_KeyPressMappingSet.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/buttons/juce_Button.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/buttons/juce_ArrowButton.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/buttons/juce_DrawableButton.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/buttons/juce_HyperlinkButton.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/buttons/juce_ImageButton.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/buttons/juce_ShapeButton.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/buttons/juce_TextButton.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/buttons/juce_ToggleButton.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_AnimatedPosition.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_AnimatedPositionBehaviours.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_ComponentBuilder.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_ComponentMovementWatcher.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_ConcertinaPanel.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_GroupComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_ResizableBorderComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_ResizableCornerComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_ResizableEdgeComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_ScrollBar.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_StretchableLayoutManager.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_StretchableLayoutResizerBar.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_StretchableObjectResizer.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_TabbedButtonBar.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_TabbedComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_Viewport.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/menus/juce_PopupMenu.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/menus/juce_MenuBarModel.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/menus/juce_MenuBarComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/positioning/juce_RelativeCoordinate.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/positioning/juce_MarkerList.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/positioning/juce_RelativePoint.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/positioning/juce_RelativeRectangle.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/positioning/juce_RelativeCoordinatePositioner.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/positioning/juce_RelativeParallelogram.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/positioning/juce_RelativePointPath.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/drawables/juce_Drawable.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/drawables/juce_DrawableShape.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/drawables/juce_DrawableComposite.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/drawables/juce_DrawableImage.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/drawables/juce_DrawablePath.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/drawables/juce_DrawableRectangle.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/drawables/juce_DrawableText.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_TextEditor.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_Label.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_ComboBox.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_ImageComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_ListBox.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_ProgressBar.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_Slider.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_TableHeaderComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_TableListBox.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_Toolbar.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_ToolbarItemComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_ToolbarItemFactory.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_ToolbarItemPalette.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/menus/juce_BurgerMenuComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/buttons/juce_ToolbarButton.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/misc/juce_DropShadower.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/misc/juce_JUCESplashScreen.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_TreeView.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/windows/juce_TopLevelWindow.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/windows/juce_MessageBoxOptions.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/windows/juce_AlertWindow.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/windows/juce_CallOutBox.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/windows/juce_ComponentPeer.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/windows/juce_ResizableWindow.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/windows/juce_DocumentWindow.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/windows/juce_DialogWindow.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/windows/juce_NativeMessageBox.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/windows/juce_ThreadWithProgressWindow.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/windows/juce_TooltipWindow.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_MultiDocumentPanel.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_SidePanel.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/filebrowser/juce_FileBrowserListener.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/filebrowser/juce_DirectoryContentsList.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/filebrowser/juce_DirectoryContentsDisplayComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/filebrowser/juce_FileBrowserComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/filebrowser/juce_FileChooser.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/filebrowser/juce_FileChooserDialogBox.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/filebrowser/juce_FileListComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/filebrowser/juce_FilenameComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/filebrowser/juce_FilePreviewComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/filebrowser/juce_FileSearchPathListComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/filebrowser/juce_FileTreeComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/filebrowser/juce_ImagePreviewComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/filebrowser/juce_ContentSharer.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/properties/juce_PropertyComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/properties/juce_BooleanPropertyComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/properties/juce_ButtonPropertyComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/properties/juce_ChoicePropertyComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/properties/juce_PropertyPanel.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/properties/juce_SliderPropertyComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/properties/juce_TextPropertyComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/properties/juce_MultiChoicePropertyComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/application/juce_Application.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/misc/juce_BubbleComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V2.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V1.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V3.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V4.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/mouse/juce_LassoComponent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/accessibility/interfaces/juce_AccessibilityCellInterface.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/accessibility/interfaces/juce_AccessibilityTableInterface.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/accessibility/interfaces/juce_AccessibilityTextInterface.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/accessibility/interfaces/juce_AccessibilityValueInterface.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/accessibility/enums/juce_AccessibilityActions.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/accessibility/enums/juce_AccessibilityEvent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/accessibility/enums/juce_AccessibilityRole.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/accessibility/juce_AccessibilityState.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/accessibility/juce_AccessibilityHandler.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_FlexItem.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_FlexBox.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_GridItem.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_Grid.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/native/juce_ScopedDPIAwarenessDisabler.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/accessibility/juce_AccessibilityHandler.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/components/juce_Component.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/components/juce_ComponentListener.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/components/juce_FocusTraverser.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/mouse/juce_MouseInputSource.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/desktop/juce_Displays.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/desktop/juce_Desktop.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/components/juce_ModalComponentManager.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/mouse/juce_ComponentDragger.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/mouse/juce_DragAndDropContainer.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/mouse/juce_MouseEvent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/mouse/juce_MouseInactivityDetector.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/mouse/juce_MouseListener.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/keyboard/juce_CaretComponent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/keyboard/juce_KeyboardFocusTraverser.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/keyboard/juce_KeyListener.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/keyboard/juce_KeyPress.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/keyboard/juce_ModifierKeys.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/buttons/juce_ArrowButton.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/buttons/juce_Button.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/buttons/juce_DrawableButton.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/buttons/juce_HyperlinkButton.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/buttons/juce_ImageButton.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/buttons/juce_ShapeButton.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/buttons/juce_TextButton.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/buttons/juce_ToggleButton.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/buttons/juce_ToolbarButton.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/drawables/juce_Drawable.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/drawables/juce_DrawableComposite.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/drawables/juce_DrawableImage.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/drawables/juce_DrawablePath.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/drawables/juce_DrawableRectangle.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/drawables/juce_DrawableShape.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/drawables/juce_DrawableText.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/drawables/juce_SVGParser.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/filebrowser/juce_DirectoryContentsDisplayComponent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/filebrowser/juce_DirectoryContentsList.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/filebrowser/juce_FileBrowserComponent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/filebrowser/juce_FileChooser.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/filebrowser/juce_FileChooserDialogBox.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/filebrowser/juce_FileListComponent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/filebrowser/juce_FilenameComponent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/filebrowser/juce_FileSearchPathListComponent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/filebrowser/juce_FileTreeComponent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/filebrowser/juce_ImagePreviewComponent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/filebrowser/juce_ContentSharer.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_ComponentAnimator.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_ComponentBoundsConstrainer.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_ComponentBuilder.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_ComponentMovementWatcher.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_ConcertinaPanel.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_GroupComponent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_MultiDocumentPanel.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_ResizableBorderComponent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_ResizableCornerComponent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_ResizableEdgeComponent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_ScrollBar.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_SidePanel.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_StretchableLayoutManager.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_StretchableLayoutResizerBar.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_StretchableObjectResizer.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_TabbedButtonBar.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_TabbedComponent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_Viewport.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V2.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V1.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V3.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V4.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/menus/juce_MenuBarComponent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/menus/juce_BurgerMenuComponent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/menus/juce_MenuBarModel.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/menus/juce_PopupMenu.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/positioning/juce_MarkerList.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/positioning/juce_RelativeCoordinate.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/positioning/juce_RelativeCoordinatePositioner.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/positioning/juce_RelativeParallelogram.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/positioning/juce_RelativePoint.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/positioning/juce_RelativePointPath.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/positioning/juce_RelativeRectangle.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/properties/juce_BooleanPropertyComponent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/properties/juce_ButtonPropertyComponent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/properties/juce_ChoicePropertyComponent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/properties/juce_PropertyComponent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/properties/juce_PropertyPanel.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/properties/juce_SliderPropertyComponent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/properties/juce_TextPropertyComponent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/properties/juce_MultiChoicePropertyComponent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_ComboBox.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_ImageComponent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_Label.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_ListBox.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_ProgressBar.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_Slider.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_TableHeaderComponent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_TableListBox.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_TextEditor.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_ToolbarItemComponent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_Toolbar.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_ToolbarItemPalette.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/widgets/juce_TreeView.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/windows/juce_AlertWindow.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/windows/juce_CallOutBox.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/windows/juce_ComponentPeer.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/windows/juce_DialogWindow.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/windows/juce_DocumentWindow.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/windows/juce_ResizableWindow.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/windows/juce_ThreadWithProgressWindow.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/windows/juce_TooltipWindow.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/windows/juce_TopLevelWindow.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandInfo.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandManager.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandTarget.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/commands/juce_KeyPressMappingSet.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/application/juce_Application.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/misc/juce_BubbleComponent.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/misc/juce_DropShadower.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/misc/juce_JUCESplashScreen.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_FlexBox.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_GridItem.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/layout/juce_Grid.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/native/accessibility/juce_mac_AccessibilitySharedCode.mm \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/native/accessibility/juce_mac_Accessibility.mm \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/native/juce_mac_NSViewComponentPeer.mm \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/native/juce_mac_Windowing.mm \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/native/juce_mac_MainMenu.mm \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/native/juce_mac_FileChooser.mm \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/native/juce_mac_MouseCursor.mm \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_gui_basics/mouse/juce_MouseCursor.cpp
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/JuceLibraryCode/include_juce_gui_basics.mm \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/JuceLibraryCode/AppConfig.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/juce_gui_basics.mm \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/juce_gui_basics.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/juce_graphics.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/juce_core.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/system/juce_TargetPlatform.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/native/juce_BasicNativeHeaders.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/system/juce_StandardHeader.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/system/juce_CompilerSupport.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/system/juce_CompilerWarnings.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/system/juce_PlatformDefs.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_Memory.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/maths/juce_MathsFunctions.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_ByteOrder.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_Atomic.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_CharacterFunctions.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_CharPointer_UTF8.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_CharPointer_UTF16.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_CharPointer_UTF32.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_CharPointer_ASCII.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_String.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_StringRef.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/logging/juce_Logger.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/logging/juce_AudioThreadGuard.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_LeakedObjectDetector.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_ContainerDeletePolicy.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_HeapBlock.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_MemoryBlock.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_ReferenceCountedObject.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_ScopedPointer.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_OptionalScopedPointer.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_ScopedValueSetter.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_Singleton.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_WeakReference.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_ScopedLock.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_CriticalSection.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/maths/juce_Range.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/maths/juce_NormalisableRange.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/maths/juce_StatisticsAccumulator.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_ElementComparator.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_ArrayAllocationBase.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_ArrayBase.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_Array.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_LinkedListPointer.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_ListenerList.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_OwnedArray.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_ReferenceCountedArray.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_SortedSet.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_SparseSet.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_AbstractFifo.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_SingleThreadedAbstractFifo.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_NewLine.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_StringPool.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_Identifier.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_StringArray.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/system/juce_SystemStats.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_HeavyweightLeakedObjectDetector.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_StringPairArray.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_TextDiff.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_LocalisedStrings.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_Base64.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/misc/juce_Functional.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/misc/juce_Result.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/misc/juce_Uuid.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/misc/juce_ConsoleApplication.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_Variant.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_NamedValueSet.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_DynamicObject.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_HashMap.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/time/juce_RelativeTime.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/time/juce_Time.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/streams/juce_InputStream.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/streams/juce_OutputStream.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/streams/juce_BufferedInputStream.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/streams/juce_MemoryInputStream.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/streams/juce_MemoryOutputStream.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/streams/juce_SubregionStream.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/streams/juce_InputSource.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/files/juce_File.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/files/juce_DirectoryIterator.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/files/juce_RangedDirectoryIterator.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/files/juce_FileInputStream.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/files/juce_FileOutputStream.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/files/juce_FileSearchPath.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/files/juce_MemoryMappedFile.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/files/juce_TemporaryFile.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/files/juce_FileFilter.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/files/juce_WildcardFileFilter.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/streams/juce_FileInputSource.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/logging/juce_FileLogger.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/javascript/juce_JSON.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/javascript/juce_Javascript.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/maths/juce_BigInteger.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/maths/juce_Expression.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/maths/juce_Random.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/misc/juce_RuntimePermissions.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/misc/juce_WindowsRegistry.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_ChildProcess.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_DynamicLibrary.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_HighResolutionTimer.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_InterProcessLock.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_Process.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_SpinLock.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_WaitableEvent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_Thread.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_ThreadLocalValue.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_ThreadPool.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_TimeSliceThread.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_ReadWriteLock.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_ScopedReadLock.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_ScopedWriteLock.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/network/juce_IPAddress.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/network/juce_MACAddress.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/network/juce_NamedPipe.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/network/juce_Socket.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/network/juce_URL.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/network/juce_WebInputStream.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/streams/juce_URLInputSource.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/time/juce_PerformanceCounter.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/unit_tests/juce_UnitTest.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/xml/juce_XmlDocument.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/xml/juce_XmlElement.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/zip/juce_GZIPCompressorOutputStream.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/zip/juce_GZIPDecompressorInputStream.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/zip/juce_ZipFile.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_PropertySet.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_SharedResourcePointer.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_AllocationHooks.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_Reservoir.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/native/juce_mac_ObjCHelpers.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/native/juce_mac_CFHelpers.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_events/juce_events.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_events/messages/juce_MessageManager.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_events/messages/juce_Message.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_events/messages/juce_MessageListener.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_events/messages/juce_CallbackMessage.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_events/messages/juce_DeletedAtShutdown.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_events/messages/juce_NotificationType.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_events/messages/juce_ApplicationBase.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_events/messages/juce_Initialisation.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_events/messages/juce_MountedVolumeListChangeDetector.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_events/broadcasters/juce_ActionBroadcaster.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_events/broadcasters/juce_ActionListener.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_events/broadcasters/juce_AsyncUpdater.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_events/broadcasters/juce_ChangeListener.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_events/broadcasters/juce_ChangeBroadcaster.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_events/timers/juce_Timer.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_events/timers/juce_MultiTimer.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_events/interprocess/juce_InterprocessConnection.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_events/interprocess/juce_InterprocessConnectionServer.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_events/interprocess/juce_ConnectedChildProcess.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_events/interprocess/juce_NetworkServiceDiscovery.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_events/native/juce_ScopedLowPowerModeDisabler.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/geometry/juce_AffineTransform.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/geometry/juce_Point.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/geometry/juce_Line.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/geometry/juce_Rectangle.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/geometry/juce_Parallelogram.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/placement/juce_Justification.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/geometry/juce_Path.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/geometry/juce_RectangleList.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/colour/juce_PixelFormats.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/colour/juce_Colour.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/colour/juce_ColourGradient.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/colour/juce_Colours.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/geometry/juce_BorderSize.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/geometry/juce_EdgeTable.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/geometry/juce_PathIterator.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/geometry/juce_PathStrokeType.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/placement/juce_RectanglePlacement.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/images/juce_ImageCache.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/images/juce_ImageConvolutionKernel.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/images/juce_ImageFileFormat.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/fonts/juce_Typeface.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/fonts/juce_Font.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/fonts/juce_AttributedString.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/fonts/juce_GlyphArrangement.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/fonts/juce_TextLayout.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/fonts/juce_CustomTypeface.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/contexts/juce_GraphicsContext.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/contexts/juce_LowLevelGraphicsContext.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/images/juce_Image.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/images/juce_ScaledImage.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/colour/juce_FillType.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/native/juce_RenderingHelpers.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/contexts/juce_LowLevelGraphicsSoftwareRenderer.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/contexts/juce_LowLevelGraphicsPostScriptRenderer.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/effects/juce_ImageEffectFilter.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/effects/juce_DropShadowEffect.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/effects/juce_GlowEffect.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/native/juce_mac_CoreGraphicsHelpers.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_graphics/native/juce_mac_CoreGraphicsContext.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_data_structures/juce_data_structures.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_data_structures/undomanager/juce_UndoableAction.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_data_structures/undomanager/juce_UndoManager.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_data_structures/values/juce_Value.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_data_structures/values/juce_ValueTree.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_data_structures/values/juce_ValueTreeSynchroniser.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_data_structures/values/juce_CachedValue.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_data_structures/values/juce_ValueWithDefault.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_data_structures/app_properties/juce_PropertiesFile.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_data_structures/app_properties/juce_ApplicationProperties.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/mouse/juce_MouseCursor.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/mouse/juce_MouseListener.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/keyboard/juce_ModifierKeys.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/mouse/juce_MouseInputSource.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/mouse/juce_MouseEvent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/keyboard/juce_KeyPress.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/keyboard/juce_KeyListener.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/components/juce_ComponentTraverser.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/components/juce_FocusTraverser.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/components/juce_ModalComponentManager.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/components/juce_ComponentListener.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/components/juce_CachedComponentImage.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/components/juce_Component.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_ComponentAnimator.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/desktop/juce_Desktop.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/desktop/juce_Displays.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_ComponentBoundsConstrainer.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/mouse/juce_ComponentDragger.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/mouse/juce_DragAndDropTarget.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/mouse/juce_DragAndDropContainer.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/mouse/juce_FileDragAndDropTarget.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/mouse/juce_SelectedItemSet.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/mouse/juce_MouseInactivityDetector.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/mouse/juce_TextDragAndDropTarget.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/mouse/juce_TooltipClient.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/keyboard/juce_CaretComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/keyboard/juce_KeyboardFocusTraverser.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/keyboard/juce_SystemClipboard.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/keyboard/juce_TextEditorKeyMapper.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/keyboard/juce_TextInputTarget.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandID.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandInfo.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandTarget.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandManager.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/commands/juce_KeyPressMappingSet.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/buttons/juce_Button.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/buttons/juce_ArrowButton.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/buttons/juce_DrawableButton.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/buttons/juce_HyperlinkButton.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/buttons/juce_ImageButton.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/buttons/juce_ShapeButton.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/buttons/juce_TextButton.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/buttons/juce_ToggleButton.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_AnimatedPosition.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_AnimatedPositionBehaviours.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_ComponentBuilder.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_ComponentMovementWatcher.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_ConcertinaPanel.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_GroupComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_ResizableBorderComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_ResizableCornerComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_ResizableEdgeComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_ScrollBar.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_StretchableLayoutManager.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_StretchableLayoutResizerBar.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_StretchableObjectResizer.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_TabbedButtonBar.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_TabbedComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_Viewport.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/menus/juce_PopupMenu.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/menus/juce_MenuBarModel.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/menus/juce_MenuBarComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/positioning/juce_RelativeCoordinate.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/positioning/juce_MarkerList.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/positioning/juce_RelativePoint.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/positioning/juce_RelativeRectangle.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/positioning/juce_RelativeCoordinatePositioner.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/positioning/juce_RelativeParallelogram.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/positioning/juce_RelativePointPath.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/drawables/juce_Drawable.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/drawables/juce_DrawableShape.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/drawables/juce_DrawableComposite.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/drawables/juce_DrawableImage.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/drawables/juce_DrawablePath.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/drawables/juce_DrawableRectangle.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/drawables/juce_DrawableText.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_TextEditor.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_Label.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_ComboBox.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_ImageComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_ListBox.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_ProgressBar.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_Slider.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_TableHeaderComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_TableListBox.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_Toolbar.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_ToolbarItemComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_ToolbarItemFactory.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_ToolbarItemPalette.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/menus/juce_BurgerMenuComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/buttons/juce_ToolbarButton.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/misc/juce_DropShadower.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/misc/juce_JUCESplashScreen.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_TreeView.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/windows/juce_TopLevelWindow.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/windows/juce_MessageBoxOptions.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/windows/juce_AlertWindow.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/windows/juce_CallOutBox.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/windows/juce_ComponentPeer.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/windows/juce_ResizableWindow.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/windows/juce_DocumentWindow.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/windows/juce_DialogWindow.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/windows/juce_NativeMessageBox.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/windows/juce_ThreadWithProgressWindow.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/windows/juce_TooltipWindow.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_MultiDocumentPanel.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_SidePanel.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/filebrowser/juce_FileBrowserListener.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/filebrowser/juce_DirectoryContentsList.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/filebrowser/juce_DirectoryContentsDisplayComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/filebrowser/juce_FileBrowserComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/filebrowser/juce_FileChooser.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/filebrowser/juce_FileChooserDialogBox.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/filebrowser/juce_FileListComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/filebrowser/juce_FilenameComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/filebrowser/juce_FilePreviewComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/filebrowser/juce_FileSearchPathListComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/filebrowser/juce_FileTreeComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/filebrowser/juce_ImagePreviewComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/filebrowser/juce_ContentSharer.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/properties/juce_PropertyComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/properties/juce_BooleanPropertyComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/properties/juce_ButtonPropertyComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/properties/juce_ChoicePropertyComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/properties/juce_PropertyPanel.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/properties/juce_SliderPropertyComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/properties/juce_TextPropertyComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/properties/juce_MultiChoicePropertyComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/application/juce_Application.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/misc/juce_BubbleComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V2.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V1.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V3.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V4.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/mouse/juce_LassoComponent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/accessibility/interfaces/juce_AccessibilityCellInterface.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/accessibility/interfaces/juce_AccessibilityTableInterface.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/accessibility/interfaces/juce_AccessibilityTextInterface.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/accessibility/interfaces/juce_AccessibilityValueInterface.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/accessibility/enums/juce_AccessibilityActions.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/accessibility/enums/juce_AccessibilityEvent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/accessibility/enums/juce_AccessibilityRole.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/accessibility/juce_AccessibilityState.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/accessibility/juce_AccessibilityHandler.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_FlexItem.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_FlexBox.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_GridItem.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_Grid.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/native/juce_ScopedDPIAwarenessDisabler.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/accessibility/juce_AccessibilityHandler.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/components/juce_Component.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/components/juce_ComponentListener.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/components/juce_FocusTraverser.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/mouse/juce_MouseInputSource.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/desktop/juce_Displays.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/desktop/juce_Desktop.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/components/juce_ModalComponentManager.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/mouse/juce_ComponentDragger.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/mouse/juce_DragAndDropContainer.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/mouse/juce_MouseEvent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/mouse/juce_MouseInactivityDetector.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/mouse/juce_MouseListener.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/keyboard/juce_CaretComponent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/keyboard/juce_KeyboardFocusTraverser.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/keyboard/juce_KeyListener.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/keyboard/juce_KeyPress.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/keyboard/juce_ModifierKeys.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/buttons/juce_ArrowButton.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/buttons/juce_Button.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/buttons/juce_DrawableButton.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/buttons/juce_HyperlinkButton.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/buttons/juce_ImageButton.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/buttons/juce_ShapeButton.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/buttons/juce_TextButton.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/buttons/juce_ToggleButton.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/buttons/juce_ToolbarButton.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/drawables/juce_Drawable.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/drawables/juce_DrawableComposite.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/drawables/juce_DrawableImage.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/drawables/juce_DrawablePath.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/drawables/juce_DrawableRectangle.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/drawables/juce_DrawableShape.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/drawables/juce_DrawableText.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/drawables/juce_SVGParser.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/filebrowser/juce_DirectoryContentsDisplayComponent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/filebrowser/juce_DirectoryContentsList.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/filebrowser/juce_FileBrowserComponent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/filebrowser/juce_FileChooser.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/filebrowser/juce_FileChooserDialogBox.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/filebrowser/juce_FileListComponent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/filebrowser/juce_FilenameComponent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/filebrowser/juce_FileSearchPathListComponent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/filebrowser/juce_FileTreeComponent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/filebrowser/juce_ImagePreviewComponent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/filebrowser/juce_ContentSharer.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_ComponentAnimator.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_ComponentBoundsConstrainer.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_ComponentBuilder.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_ComponentMovementWatcher.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_ConcertinaPanel.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_GroupComponent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_MultiDocumentPanel.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_ResizableBorderComponent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_ResizableCornerComponent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_ResizableEdgeComponent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_ScrollBar.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_SidePanel.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_StretchableLayoutManager.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_StretchableLayoutResizerBar.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_StretchableObjectResizer.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_TabbedButtonBar.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_TabbedComponent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_Viewport.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V2.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V1.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V3.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V4.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/menus/juce_MenuBarComponent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/menus/juce_BurgerMenuComponent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/menus/juce_MenuBarModel.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/menus/juce_PopupMenu.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/positioning/juce_MarkerList.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/positioning/juce_RelativeCoordinate.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/positioning/juce_RelativeCoordinatePositioner.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/positioning/juce_RelativeParallelogram.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/positioning/juce_RelativePoint.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/positioning/juce_RelativePointPath.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/positioning/juce_RelativeRectangle.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/properties/juce_BooleanPropertyComponent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/properties/juce_ButtonPropertyComponent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/properties/juce_ChoicePropertyComponent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/properties/juce_PropertyComponent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/properties/juce_PropertyPanel.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/properties/juce_SliderPropertyComponent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/properties/juce_TextPropertyComponent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/properties/juce_MultiChoicePropertyComponent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_ComboBox.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_ImageComponent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_Label.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_ListBox.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_ProgressBar.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_Slider.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_TableHeaderComponent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_TableListBox.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_TextEditor.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_ToolbarItemComponent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_Toolbar.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_ToolbarItemPalette.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/widgets/juce_TreeView.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/windows/juce_AlertWindow.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/windows/juce_CallOutBox.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/windows/juce_ComponentPeer.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/windows/juce_DialogWindow.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/windows/juce_DocumentWindow.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/windows/juce_ResizableWindow.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/windows/juce_ThreadWithProgressWindow.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/windows/juce_TooltipWindow.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/windows/juce_TopLevelWindow.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandInfo.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandManager.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandTarget.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/commands/juce_KeyPressMappingSet.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/application/juce_Application.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/misc/juce_BubbleComponent.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/misc/juce_DropShadower.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/misc/juce_JUCESplashScreen.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_FlexBox.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_GridItem.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/layout/juce_Grid.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/native/accessibility/juce_mac_AccessibilitySharedCode.mm \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/native/accessibility/juce_mac_Accessibility.mm \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/native/juce_mac_NSViewComponentPeer.mm \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/native/juce_mac_Windowing.mm \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/native/juce_mac_MainMenu.mm \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/native/juce_mac_FileChooser.mm \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/native/juce_mac_MouseCursor.mm \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_gui_basics/mouse/juce_MouseCursor.cpp

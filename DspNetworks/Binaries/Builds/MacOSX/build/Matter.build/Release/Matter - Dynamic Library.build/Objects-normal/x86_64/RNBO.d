@@ -1,104 +1,111 @@
 dependencies: \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/Binaries/Source/RNBO.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/RNBO.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/RNBO.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_Config.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_Types.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_CompilerMacros.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_Std.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_ParameterInterface.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_Math.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_CMath.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_MathFast.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_BaseInterface.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_PatcherFactory.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_ParameterEvent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_MidiEvent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_DynamicSymbolRegistry.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_CoreObject.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_ProbingInterface.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_ParameterEventInterface.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_List.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_PlatformInterface.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_EventVariant.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_EmptyEvent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_ClockEvent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_EventTarget.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_EngineLink.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_DataRefEvent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_PatcherInterface.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_ProcessInterface.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_PatcherEventTarget.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_PatcherStateInterface.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_ExternalPtr.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_UniquePtr.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_ExternalBase.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_EngineInterface.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_OutletEvent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_UniversalEvent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_HardwareDevice.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_Vector.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_String.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_StartupEvent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_Logger.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_Debug.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_Presets.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_PatcherState.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_DataRef.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/3rdparty/MPark_variant/variant.hpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/3rdparty/json/json.hpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_Utils.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_MessageEvent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_PresetEvent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_TempoEvent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_TransportEvent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_BeatTimeEvent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_TimeSignatureEvent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_EventList.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_Array.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_ExternalData.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_AudioBufferConverter.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_PresetList.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_DataRefList.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_PlatformInterfaceImpl.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/platforms/stdlib//RNBO_PlatformInterfaceStdLib.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_CoreObject.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_Engine.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_EngineCore.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_ParameterInterfaceSync.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_TimeConverter.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_NullPatcher.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_PatcherInterfaceImpl.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_PatcherStateDummy.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_PatcherEventSender.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_EventSender.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_ParamNameHash.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_ParameterEventQueue.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_EventQueue.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/3rdparty/readerwriterqueue/readerwriterqueue.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/3rdparty/readerwriterqueue/atomicops.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/3rdparty/concurrentqueue/concurrentqueue.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_ServiceNotification.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_ParameterInterfaceAsync.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_DataBuffer.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_DataBuffer.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_DataRefList.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_DynamicPatcherFactory.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_DynamicPatcherFactory.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_Engine.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_ParameterInterfaceAsyncImpl.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_ExternalLoader.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_ExternalLoader.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/../externals/ext_rnbo.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_FileChangeWatcher.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_FileChangeWatcher.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_Logger.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_MaxClang.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_MaxClang.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_ParameterInterfaceAsync.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_ParameterInterfaceSync.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_PatcherFactory.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_PatcherState.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_PresetList.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_List.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_UnitTests.cpp
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/RNBO.cpp \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/RNBO.cpp \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/RNBO.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_Config.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/common/RNBO_Types.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/common/RNBO_CompilerMacros.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/common/RNBO_Std.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/common/RNBO_ParameterInterface.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/common/RNBO_Math.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/common/RNBO_CMath.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/common/RNBO_MathFast.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/common/RNBO_BaseInterface.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/common/RNBO_PatcherFactory.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_ParameterEvent.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_Types.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_Math.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_MidiEvent.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_DynamicSymbolRegistry.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_CoreObject.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_BaseInterface.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_ProbingInterface.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_ParameterEventInterface.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_ParameterInterface.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_List.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_PlatformInterface.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_EventVariant.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_EmptyEvent.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_ClockEvent.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_EventTarget.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_EngineLink.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_DataRefEvent.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_PatcherInterface.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_ProcessInterface.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_PatcherEventTarget.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_PatcherStateInterface.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_ExternalPtr.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_UniquePtr.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_ExternalBase.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_EngineInterface.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_OutletEvent.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_UniversalEvent.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_HardwareDevice.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_Vector.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_String.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_StartupEvent.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_Logger.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_Debug.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_Presets.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_PatcherState.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_DataRef.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/3rdparty/MPark_variant/variant.hpp \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/3rdparty/json/json.hpp \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_Utils.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_MessageEvent.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_PresetEvent.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_TempoEvent.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_TransportEvent.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_BeatTimeEvent.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_TimeSignatureEvent.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_EventList.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_Array.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_ExternalData.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_AudioBufferConverter.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_PresetList.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_DataRefList.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_PlatformInterfaceImpl.cpp \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/platforms/stdlib//RNBO_PlatformInterfaceStdLib.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/src/RNBO_DynamicSymbolRegistry.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_CoreObject.cpp \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_Engine.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/RNBO.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_EngineCore.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_ParameterInterfaceSync.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_TimeConverter.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_NullPatcher.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_PatcherInterfaceImpl.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_PatcherStateDummy.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_PatcherEventSender.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_EventSender.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_ParamNameHash.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_ParameterEventQueue.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_EventQueue.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/3rdparty/readerwriterqueue/readerwriterqueue.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/3rdparty/readerwriterqueue/atomicops.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/3rdparty/concurrentqueue/concurrentqueue.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_ServiceNotification.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_ParameterInterfaceAsync.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/ThirdParty/src/rnbo/common/RNBO_PatcherFactory.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_DataBuffer.cpp \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_DataBuffer.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_DataRefList.cpp \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_DynamicPatcherFactory.cpp \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_DynamicPatcherFactory.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_Engine.cpp \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_ParameterInterfaceAsyncImpl.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_ExternalLoader.cpp \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_ExternalLoader.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/../externals/ext_rnbo.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_FileChangeWatcher.cpp \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_FileChangeWatcher.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_Logger.cpp \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_MaxClang.cpp \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_MaxClang.h \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_ParameterInterfaceAsync.cpp \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_ParameterInterfaceSync.cpp \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_PatcherFactory.cpp \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_PatcherState.cpp \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_PresetList.cpp \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_List.cpp \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/Source/../../ThirdParty/src/rnbo/src/RNBO_UnitTests.cpp

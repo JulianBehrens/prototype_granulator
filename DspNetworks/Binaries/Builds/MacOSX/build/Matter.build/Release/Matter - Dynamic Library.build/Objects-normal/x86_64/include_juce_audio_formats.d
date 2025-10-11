@@ -1,339 +1,338 @@
 dependencies: \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/Binaries/JuceLibraryCode/include_juce_audio_formats.mm \
-  /Users/julianbehrens/Documents/Audio\ Programming/VST\ Projects/prototype_granulator/DspNetworks/Binaries/JuceLibraryCode/AppConfig.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/juce_audio_formats.mm \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/juce_audio_formats.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/juce_audio_basics.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/juce_core.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/system/juce_TargetPlatform.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/native/juce_BasicNativeHeaders.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/system/juce_StandardHeader.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/system/juce_CompilerSupport.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/system/juce_CompilerWarnings.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/system/juce_PlatformDefs.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_Memory.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/maths/juce_MathsFunctions.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_ByteOrder.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_Atomic.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_CharacterFunctions.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_CharPointer_UTF8.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_CharPointer_UTF16.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_CharPointer_UTF32.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_CharPointer_ASCII.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_String.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_StringRef.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/logging/juce_Logger.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/logging/juce_AudioThreadGuard.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_LeakedObjectDetector.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_ContainerDeletePolicy.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_HeapBlock.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_MemoryBlock.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_ReferenceCountedObject.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_ScopedPointer.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_OptionalScopedPointer.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_ScopedValueSetter.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_Singleton.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_WeakReference.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_ScopedLock.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_CriticalSection.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/maths/juce_Range.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/maths/juce_NormalisableRange.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/maths/juce_StatisticsAccumulator.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_ElementComparator.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_ArrayAllocationBase.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_ArrayBase.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_Array.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_LinkedListPointer.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_ListenerList.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_OwnedArray.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_ReferenceCountedArray.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_SortedSet.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_SparseSet.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_AbstractFifo.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_SingleThreadedAbstractFifo.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_NewLine.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_StringPool.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_Identifier.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_StringArray.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/system/juce_SystemStats.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_HeavyweightLeakedObjectDetector.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_StringPairArray.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_TextDiff.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_LocalisedStrings.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/text/juce_Base64.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/misc/juce_Functional.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/misc/juce_Result.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/misc/juce_Uuid.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/misc/juce_ConsoleApplication.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_Variant.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_NamedValueSet.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_DynamicObject.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_HashMap.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/time/juce_RelativeTime.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/time/juce_Time.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/streams/juce_InputStream.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/streams/juce_OutputStream.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/streams/juce_BufferedInputStream.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/streams/juce_MemoryInputStream.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/streams/juce_MemoryOutputStream.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/streams/juce_SubregionStream.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/streams/juce_InputSource.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/files/juce_File.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/files/juce_DirectoryIterator.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/files/juce_RangedDirectoryIterator.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/files/juce_FileInputStream.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/files/juce_FileOutputStream.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/files/juce_FileSearchPath.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/files/juce_MemoryMappedFile.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/files/juce_TemporaryFile.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/files/juce_FileFilter.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/files/juce_WildcardFileFilter.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/streams/juce_FileInputSource.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/logging/juce_FileLogger.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/javascript/juce_JSON.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/javascript/juce_Javascript.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/maths/juce_BigInteger.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/maths/juce_Expression.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/maths/juce_Random.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/misc/juce_RuntimePermissions.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/misc/juce_WindowsRegistry.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_ChildProcess.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_DynamicLibrary.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_HighResolutionTimer.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_InterProcessLock.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_Process.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_SpinLock.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_WaitableEvent.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_Thread.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_ThreadLocalValue.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_ThreadPool.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_TimeSliceThread.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_ReadWriteLock.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_ScopedReadLock.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/threads/juce_ScopedWriteLock.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/network/juce_IPAddress.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/network/juce_MACAddress.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/network/juce_NamedPipe.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/network/juce_Socket.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/network/juce_URL.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/network/juce_WebInputStream.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/streams/juce_URLInputSource.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/time/juce_PerformanceCounter.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/unit_tests/juce_UnitTest.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/xml/juce_XmlDocument.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/xml/juce_XmlElement.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/zip/juce_GZIPCompressorOutputStream.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/zip/juce_GZIPDecompressorInputStream.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/zip/juce_ZipFile.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/containers/juce_PropertySet.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_SharedResourcePointer.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_AllocationHooks.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/memory/juce_Reservoir.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/buffers/juce_AudioDataConverters.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/buffers/juce_FloatVectorOperations.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/buffers/juce_AudioSampleBuffer.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/buffers/juce_AudioChannelSet.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/buffers/juce_AudioProcessLoadMeasurer.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/utilities/juce_Decibels.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/utilities/juce_IIRFilter.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/utilities/juce_GenericInterpolator.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/utilities/juce_Interpolators.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/utilities/juce_SmoothedValue.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/utilities/juce_Reverb.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/utilities/juce_ADSR.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/midi/juce_MidiMessage.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/midi/juce_MidiBuffer.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/midi/juce_MidiMessageSequence.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/midi/juce_MidiFile.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/midi/juce_MidiKeyboardState.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/midi/juce_MidiRPN.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/mpe/juce_MPEValue.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/mpe/juce_MPENote.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/mpe/juce_MPEZoneLayout.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/mpe/juce_MPEInstrument.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/mpe/juce_MPEMessages.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/mpe/juce_MPESynthesiserBase.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/mpe/juce_MPESynthesiserVoice.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/mpe/juce_MPESynthesiser.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/mpe/juce_MPEUtils.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/sources/juce_AudioSource.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/sources/juce_PositionableAudioSource.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/sources/juce_BufferingAudioSource.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/sources/juce_ChannelRemappingAudioSource.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/sources/juce_IIRFilterAudioSource.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/sources/juce_MemoryAudioSource.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/sources/juce_MixerAudioSource.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/sources/juce_ResamplingAudioSource.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/sources/juce_ReverbAudioSource.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/sources/juce_ToneGeneratorAudioSource.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/synthesisers/juce_Synthesiser.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/audio_play_head/juce_AudioPlayHead.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/format/juce_AudioFormatReader.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/format/juce_AudioFormatWriter.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/format/juce_MemoryMappedAudioFormatReader.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/format/juce_AudioFormat.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/format/juce_AudioFormatManager.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/format/juce_AudioFormatReaderSource.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/format/juce_AudioSubsectionReader.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/format/juce_BufferingAudioFormatReader.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/juce_AiffAudioFormat.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/juce_CoreAudioFormat.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/juce_FlacAudioFormat.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/juce_LAMEEncoderAudioFormat.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/juce_MP3AudioFormat.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/juce_OggVorbisAudioFormat.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/juce_WavAudioFormat.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/juce_WindowsMediaAudioFormat.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/sampler/juce_Sampler.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/format/juce_AudioFormat.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/format/juce_AudioFormatManager.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/format/juce_AudioFormatReader.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/format/juce_AudioFormatReaderSource.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/format/juce_AudioFormatWriter.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/format/juce_AudioSubsectionReader.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/format/juce_BufferingAudioFormatReader.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/sampler/juce_Sampler.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/juce_AiffAudioFormat.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/juce_CoreAudioFormat.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_basics/native/juce_mac_CoreAudioLayouts.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_core/native/juce_mac_CFHelpers.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/juce_FlacAudioFormat.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/all.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/export.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/assert.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/callback.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/ordinals.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/format.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/metadata.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/stream_decoder.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/stream_encoder.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/bitmath.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/bitmath.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/../../../ordinals.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/../../../assert.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/../../../compat.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/bitreader.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/bitreader.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/cpu.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/crc.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/../assert.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/../compat.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/../endswap.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/bitwriter.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/bitwriter.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/../alloc.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/compat.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/cpu.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/crc.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/fixed.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/fixed.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/float.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/../../../format.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/float.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/format.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/../format.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/format.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/lpc_flac.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/lpc.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/md5.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/md5.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/memory.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/memory.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/stream_decoder.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/protected/stream_decoder.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/protected/../../../stream_decoder.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/stream_encoder.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/../stream_decoder.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/protected/stream_encoder.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/protected/../../../stream_encoder.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/protected/../private/float.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/stream_encoder.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/stream_encoder_framing.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/window.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/stream_encoder_framing.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/window_flac.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/juce_MP3AudioFormat.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/juce_OggVorbisAudioFormat.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/vorbisenc.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/codec.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/ogg.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/os_types.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/vorbisfile.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/bitwise.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/framing.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/crctable.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/analysis.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/../../ogg.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/../../codec.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/codec_internal.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/envelope.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/mdct.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/codebook.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/psy.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/smallft.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/backends.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/bitrate.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/os.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/../../os_types.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/misc.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/highlevel.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/registry.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/scales.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/bitrate.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/block.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/window.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/lpc.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/codebook.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/envelope.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/floor0.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/lsp.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/floor1.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/info.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/lpc.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/lsp.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/lookup.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/mapping0.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/mdct.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/psy.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/masking.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/registry.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/res0.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/sharedbook.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/smallft.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/synthesis.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/vorbisenc.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/../../vorbisenc.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/setup_44.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/floor_all.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/../../../codec.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/../backends.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/../books/floor/floor_books.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/../books/floor/../../codebook.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/residue_44.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/../books/coupled/res_books_stereo.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/../books/coupled/../../codebook.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/psych_44.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/setup_44u.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/residue_44u.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/../books/uncoupled/res_books_uncoupled.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/../books/uncoupled/../../codebook.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/setup_44p51.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/residue_44p51.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/../books/coupled/res_books_51.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/setup_32.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/setup_8.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/psych_8.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/residue_8.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/setup_11.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/psych_11.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/setup_16.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/psych_16.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/residue_16.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/setup_22.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/setup_X.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/vorbisfile.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/../../vorbisfile.h \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/window.c \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/juce_WavAudioFormat.cpp \
-  /Users/julianbehrens/Documents/Audio\ Programming/HISE-develop/JUCE/modules/juce_audio_formats/codecs/juce_LAMEEncoderAudioFormat.cpp
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/JuceLibraryCode/include_juce_audio_formats.mm \
+  /Volumes/WD_BLACK/GitHub/prototype_granulator/DspNetworks/Binaries/JuceLibraryCode/AppConfig.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/juce_audio_formats.mm \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/juce_audio_formats.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/juce_audio_basics.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/juce_core.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/system/juce_TargetPlatform.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/native/juce_BasicNativeHeaders.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/system/juce_StandardHeader.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/system/juce_CompilerSupport.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/system/juce_CompilerWarnings.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/system/juce_PlatformDefs.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_Memory.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/maths/juce_MathsFunctions.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_ByteOrder.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_Atomic.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_CharacterFunctions.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_CharPointer_UTF8.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_CharPointer_UTF16.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_CharPointer_UTF32.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_CharPointer_ASCII.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_String.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_StringRef.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/logging/juce_Logger.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/logging/juce_AudioThreadGuard.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_LeakedObjectDetector.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_ContainerDeletePolicy.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_HeapBlock.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_MemoryBlock.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_ReferenceCountedObject.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_ScopedPointer.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_OptionalScopedPointer.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_ScopedValueSetter.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_Singleton.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_WeakReference.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_ScopedLock.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_CriticalSection.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/maths/juce_Range.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/maths/juce_NormalisableRange.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/maths/juce_StatisticsAccumulator.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_ElementComparator.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_ArrayAllocationBase.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_ArrayBase.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_Array.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_LinkedListPointer.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_ListenerList.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_OwnedArray.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_ReferenceCountedArray.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_SortedSet.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_SparseSet.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_AbstractFifo.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_SingleThreadedAbstractFifo.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_NewLine.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_StringPool.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_Identifier.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_StringArray.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/system/juce_SystemStats.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_HeavyweightLeakedObjectDetector.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_StringPairArray.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_TextDiff.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_LocalisedStrings.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/text/juce_Base64.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/misc/juce_Functional.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/misc/juce_Result.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/misc/juce_Uuid.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/misc/juce_ConsoleApplication.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_Variant.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_NamedValueSet.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_DynamicObject.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_HashMap.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/time/juce_RelativeTime.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/time/juce_Time.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/streams/juce_InputStream.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/streams/juce_OutputStream.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/streams/juce_BufferedInputStream.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/streams/juce_MemoryInputStream.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/streams/juce_MemoryOutputStream.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/streams/juce_SubregionStream.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/streams/juce_InputSource.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/files/juce_File.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/files/juce_DirectoryIterator.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/files/juce_RangedDirectoryIterator.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/files/juce_FileInputStream.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/files/juce_FileOutputStream.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/files/juce_FileSearchPath.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/files/juce_MemoryMappedFile.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/files/juce_TemporaryFile.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/files/juce_FileFilter.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/files/juce_WildcardFileFilter.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/streams/juce_FileInputSource.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/logging/juce_FileLogger.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/javascript/juce_JSON.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/javascript/juce_Javascript.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/maths/juce_BigInteger.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/maths/juce_Expression.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/maths/juce_Random.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/misc/juce_RuntimePermissions.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/misc/juce_WindowsRegistry.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_ChildProcess.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_DynamicLibrary.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_HighResolutionTimer.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_InterProcessLock.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_Process.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_SpinLock.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_WaitableEvent.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_Thread.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_ThreadLocalValue.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_ThreadPool.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_TimeSliceThread.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_ReadWriteLock.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_ScopedReadLock.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/threads/juce_ScopedWriteLock.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/network/juce_IPAddress.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/network/juce_MACAddress.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/network/juce_NamedPipe.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/network/juce_Socket.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/network/juce_URL.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/network/juce_WebInputStream.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/streams/juce_URLInputSource.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/time/juce_PerformanceCounter.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/unit_tests/juce_UnitTest.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/xml/juce_XmlDocument.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/xml/juce_XmlElement.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/zip/juce_GZIPCompressorOutputStream.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/zip/juce_GZIPDecompressorInputStream.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/zip/juce_ZipFile.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/containers/juce_PropertySet.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_SharedResourcePointer.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_AllocationHooks.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/memory/juce_Reservoir.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/buffers/juce_AudioDataConverters.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/buffers/juce_FloatVectorOperations.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/buffers/juce_AudioSampleBuffer.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/buffers/juce_AudioChannelSet.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/buffers/juce_AudioProcessLoadMeasurer.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/utilities/juce_Decibels.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/utilities/juce_IIRFilter.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/utilities/juce_GenericInterpolator.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/utilities/juce_Interpolators.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/utilities/juce_SmoothedValue.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/utilities/juce_Reverb.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/utilities/juce_ADSR.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/midi/juce_MidiMessage.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/midi/juce_MidiBuffer.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/midi/juce_MidiMessageSequence.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/midi/juce_MidiFile.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/midi/juce_MidiKeyboardState.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/midi/juce_MidiRPN.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/mpe/juce_MPEValue.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/mpe/juce_MPENote.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/mpe/juce_MPEZoneLayout.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/mpe/juce_MPEInstrument.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/mpe/juce_MPEMessages.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/mpe/juce_MPESynthesiserBase.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/mpe/juce_MPESynthesiserVoice.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/mpe/juce_MPESynthesiser.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/mpe/juce_MPEUtils.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/sources/juce_AudioSource.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/sources/juce_PositionableAudioSource.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/sources/juce_BufferingAudioSource.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/sources/juce_ChannelRemappingAudioSource.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/sources/juce_IIRFilterAudioSource.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/sources/juce_MemoryAudioSource.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/sources/juce_MixerAudioSource.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/sources/juce_ResamplingAudioSource.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/sources/juce_ReverbAudioSource.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/sources/juce_ToneGeneratorAudioSource.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/synthesisers/juce_Synthesiser.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/audio_play_head/juce_AudioPlayHead.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/format/juce_AudioFormatReader.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/format/juce_AudioFormatWriter.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/format/juce_MemoryMappedAudioFormatReader.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/format/juce_AudioFormat.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/format/juce_AudioFormatManager.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/format/juce_AudioFormatReaderSource.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/format/juce_AudioSubsectionReader.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/format/juce_BufferingAudioFormatReader.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/juce_AiffAudioFormat.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/juce_CoreAudioFormat.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/juce_FlacAudioFormat.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/juce_LAMEEncoderAudioFormat.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/juce_MP3AudioFormat.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/juce_OggVorbisAudioFormat.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/juce_WavAudioFormat.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/juce_WindowsMediaAudioFormat.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/sampler/juce_Sampler.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/format/juce_AudioFormat.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/format/juce_AudioFormatManager.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/format/juce_AudioFormatReader.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/format/juce_AudioFormatReaderSource.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/format/juce_AudioFormatWriter.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/format/juce_AudioSubsectionReader.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/format/juce_BufferingAudioFormatReader.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/sampler/juce_Sampler.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/juce_AiffAudioFormat.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/juce_CoreAudioFormat.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_basics/native/juce_mac_CoreAudioLayouts.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_core/native/juce_mac_CFHelpers.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/juce_FlacAudioFormat.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/all.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/export.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/assert.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/callback.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/ordinals.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/format.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/metadata.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/stream_decoder.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/stream_encoder.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/bitmath.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/bitmath.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/../../../ordinals.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/../../../assert.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/../../../compat.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/bitreader.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/bitreader.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/cpu.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/crc.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/../assert.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/../compat.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/../endswap.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/bitwriter.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/bitwriter.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/../alloc.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/cpu.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/crc.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/fixed.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/fixed.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/float.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/../../../format.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/float.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/format.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/../format.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/format.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/lpc_flac.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/lpc.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/md5.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/md5.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/memory.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/memory.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/stream_decoder.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/protected/stream_decoder.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/protected/../../../stream_decoder.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/stream_encoder.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/../stream_decoder.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/protected/stream_encoder.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/protected/../../../stream_encoder.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/protected/../private/float.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/stream_encoder.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/stream_encoder_framing.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/include/private/window.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/stream_encoder_framing.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/flac/libFLAC/window_flac.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/juce_MP3AudioFormat.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/juce_OggVorbisAudioFormat.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/vorbisenc.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/codec.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/ogg.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/os_types.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/vorbisfile.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/bitwise.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/framing.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/crctable.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/analysis.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/../../ogg.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/../../codec.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/codec_internal.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/envelope.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/mdct.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/codebook.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/psy.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/smallft.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/backends.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/bitrate.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/os.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/../../os_types.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/misc.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/highlevel.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/registry.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/scales.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/bitrate.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/block.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/window.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/lpc.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/codebook.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/envelope.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/floor0.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/lsp.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/floor1.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/info.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/lpc.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/lsp.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/lookup.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/mapping0.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/mdct.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/psy.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/masking.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/registry.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/res0.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/sharedbook.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/smallft.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/synthesis.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/vorbisenc.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/../../vorbisenc.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/setup_44.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/floor_all.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/../../../codec.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/../backends.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/../books/floor/floor_books.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/../books/floor/../../codebook.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/residue_44.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/../books/coupled/res_books_stereo.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/../books/coupled/../../codebook.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/psych_44.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/setup_44u.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/residue_44u.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/../books/uncoupled/res_books_uncoupled.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/../books/uncoupled/../../codebook.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/setup_44p51.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/residue_44p51.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/../books/coupled/res_books_51.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/setup_32.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/setup_8.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/psych_8.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/residue_8.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/setup_11.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/psych_11.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/setup_16.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/psych_16.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/residue_16.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/setup_22.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/modes/setup_X.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/vorbisfile.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/../../vorbisfile.h \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.7/lib/window.c \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/juce_WavAudioFormat.cpp \
+  /Volumes/WD_BLACK/GitHub/HISE/JUCE/modules/juce_audio_formats/codecs/juce_LAMEEncoderAudioFormat.cpp

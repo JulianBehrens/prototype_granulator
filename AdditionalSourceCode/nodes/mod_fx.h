@@ -254,7 +254,8 @@ using xfader_t = control::xfader<xfader_multimod<NV>, faders::overlap>;
 template <int NV>
 using tempo_sync8_t = wrap::mod<parameter::plain<jdsp::jdelay<NV>, 1>, 
                                 control::tempo_sync<NV>>;
-using mono_cable = cable::block<1>;
+template <int NV>
+using mono_cable = cable::block<NV, 1>;
 
 template <int NV> using dry_wet_mixer_c0 = dry_wet_mixer2_c0<NV>;
 
@@ -309,9 +310,9 @@ template <int NV>
 using chain3_t = container::chain<parameter::empty, 
                                   wrap::fix<1, tempo_sync8_t<NV>>, 
                                   core::gain<NV>, 
-                                  routing::receive<mono_cable>, 
+                                  routing::receive<NV, mono_cable<NV>>, 
                                   jdsp::jdelay<NV>, 
-                                  routing::send<mono_cable>, 
+                                  routing::send<NV, mono_cable<NV>>, 
                                   dry_wet1_t<NV>, 
                                   clock_ramp1_t<NV>>;
 
@@ -351,9 +352,9 @@ template <int NV>
 using chain1_t = container::chain<parameter::empty, 
                                   wrap::fix<1, tempo_sync9_t<NV>>, 
                                   core::gain<NV>, 
-                                  routing::receive<mono_cable>, 
+                                  routing::receive<NV, mono_cable<NV>>, 
                                   jdsp::jdelay<NV>, 
-                                  routing::send<mono_cable>, 
+                                  routing::send<NV, mono_cable<NV>>, 
                                   dry_wet2_t<NV>>;
 
 template <int NV>
@@ -370,6 +371,7 @@ template <int NV>
 using delay_chain_t = container::chain<parameter::empty, 
                                        wrap::fix<2, xfader_t<NV>>, 
                                        split_t<NV>>;
+using limiter_t = wrap::no_data<dynamics::limiter>;
 
 namespace mod_fx_t_parameters
 {
@@ -412,9 +414,10 @@ using Delay_Sync = parameter::chain<ranges::Identity,
                                     parameter::plain<mod_fx_impl::tempo_sync9_t<NV>, 2>, 
                                     parameter::plain<mod_fx_impl::tempo_sync8_t<NV>, 2>>;
 
+template <int NV>
 using Delay_Feedback = parameter::chain<ranges::Identity, 
-                                        parameter::plain<routing::receive<mono_cable>, 0>, 
-                                        parameter::plain<routing::receive<mono_cable>, 0>>;
+                                        parameter::plain<routing::receive<NV, mono_cable<NV>>, 0>, 
+                                        parameter::plain<routing::receive<NV, mono_cable<NV>>, 0>>;
 
 template <int NV>
 using Accent = parameter::chain<ranges::Identity, 
@@ -484,7 +487,7 @@ using mod_fx_t_plist = parameter::list<ModSpeed<NV>,
                                        Engine1DryWet<NV>, 
                                        Delay_Mix<NV>, 
                                        Delay_Sync<NV>, 
-                                       Delay_Feedback, 
+                                       Delay_Feedback<NV>, 
                                        SpeedL<NV>, 
                                        SpeedR<NV>, 
                                        Accent<NV>, 
@@ -501,8 +504,7 @@ using mod_fx_t_ = container::chain<mod_fx_t_parameters::mod_fx_t_plist<NV>,
                                    pack2_writer_t, 
                                    wrapsmoothed_parameter11_t<NV>, 
                                    delay_chain_t<NV>, 
-                                   math::clip<NV>, 
-                                   core::gain<NV>>;
+                                   limiter_t>;
 
 // =================================| Root node initialiser class |=================================
 
@@ -519,43 +521,50 @@ template <int NV> struct instance: public mod_fx_impl::mod_fx_t_<NV>
 		
 		SNEX_METADATA_ID(mod_fx);
 		SNEX_METADATA_NUM_CHANNELS(2);
-		SNEX_METADATA_ENCODED_PARAMETERS(274)
+		SNEX_METADATA_ENCODED_PARAMETERS(282)
 		{
-			0x005B, 0x0000, 0x4D00, 0x646F, 0x7053, 0x6565, 0x0064, 0x0000, 
-            0x0000, 0x0000, 0x4190, 0x0000, 0x4190, 0x0000, 0x3F80, 0x0000, 
-            0x3F80, 0x015B, 0x0000, 0x5400, 0x6D65, 0x6F70, 0x7953, 0x636E, 
-            0x0000, 0x0000, 0x0000, 0x8000, 0x003F, 0x8000, 0x003F, 0x8000, 
-            0x003F, 0x8000, 0x5B3F, 0x0002, 0x0000, 0x7247, 0x6961, 0x536E, 
-            0x7A69, 0x0065, 0x0000, 0x4120, 0x0000, 0x4316, 0x0000, 0x4316, 
-            0x0000, 0x3F80, 0x0000, 0x0000, 0x035B, 0x0000, 0x5000, 0x7469, 
-            0x6863, 0x0000, 0x4000, 0x00C1, 0x4000, 0x0041, 0x4000, 0x00C1, 
-            0x8000, 0x003F, 0x8000, 0x5B3F, 0x0004, 0x0000, 0x664F, 0x7366, 
-            0x7465, 0x0000, 0x2000, 0x0041, 0xFA00, 0x8543, 0x51EB, 0x0043, 
-            0x8000, 0x003F, 0x0000, 0x5B00, 0x0005, 0x0000, 0x6E45, 0x6967, 
-            0x656E, 0x4431, 0x7972, 0x6557, 0x0074, 0x0000, 0x0000, 0x0000, 
-            0x42C8, 0x999A, 0x4241, 0x0000, 0x3F80, 0x0000, 0x0000, 0x065B, 
-            0x0000, 0x4400, 0x6C65, 0x7961, 0x4D5F, 0x7869, 0x0000, 0x0000, 
-            0x0000, 0xC800, 0x0042, 0xC800, 0x0042, 0x8000, 0x003F, 0x0000, 
-            0x5B00, 0x0007, 0x0000, 0x6544, 0x616C, 0x5F79, 0x7953, 0x636E, 
-            0x0000, 0x0000, 0x0000, 0x8000, 0x003F, 0x8000, 0x003F, 0x8000, 
-            0x003F, 0x8000, 0x5B3F, 0x0008, 0x0000, 0x6544, 0x616C, 0x5F79, 
-            0x6546, 0x6465, 0x6162, 0x6B63, 0x0000, 0x0000, 0x0000, 0x8000, 
-            0xE93F, 0x3126, 0x003F, 0x8000, 0x003F, 0x0000, 0x5B00, 0x0009, 
-            0x0000, 0x7053, 0x6565, 0x4C64, 0x0000, 0x0000, 0x0000, 0x9000, 
-            0x0041, 0x0000, 0x0000, 0x8000, 0x003F, 0x8000, 0x5B3F, 0x000A, 
-            0x0000, 0x7053, 0x6565, 0x5264, 0x0000, 0x0000, 0x0000, 0x9000, 
-            0x0041, 0x0000, 0x0000, 0x8000, 0x003F, 0x8000, 0x5B3F, 0x000B, 
-            0x0000, 0x6341, 0x6563, 0x746E, 0x0000, 0x0000, 0x0000, 0x8000, 
-            0x003F, 0x8000, 0x003F, 0x8000, 0x003F, 0x0000, 0x5B00, 0x000C, 
-            0x0000, 0x7053, 0x6565, 0x4164, 0x0000, 0x2000, 0x0041, 0xFA00, 
-            0x0043, 0xFA00, 0x0043, 0x8000, 0x003F, 0x0000, 0x5B00, 0x000D, 
-            0x0000, 0x7053, 0x6565, 0x4264, 0x0000, 0x0000, 0x0000, 0x9000, 
-            0xFC41, 0x51A9, 0x0041, 0x8000, 0x003F, 0x0000, 0x5B00, 0x000E, 
-            0x0000, 0x7053, 0x6565, 0x5F64, 0x414C, 0x0000, 0x0000, 0x0000, 
-            0x7A00, 0x0044, 0x7A00, 0x0044, 0x8000, 0x003F, 0x8000, 0x5B3F, 
+			0x005C, 0x0000, 0x0000, 0x6F4D, 0x5364, 0x6570, 0x6465, 0x0000, 
+            0x0000, 0x0000, 0x9000, 0x0041, 0x9000, 0x0041, 0x8000, 0x003F, 
+            0x8000, 0x5C3F, 0x0100, 0x0000, 0x5400, 0x6D65, 0x6F70, 0x7953, 
+            0x636E, 0x0000, 0x0000, 0x0000, 0x8000, 0x003F, 0x0000, 0x0000, 
+            0x8000, 0x003F, 0x8000, 0x5C3F, 0x0200, 0x0000, 0x4700, 0x6172, 
+            0x6E69, 0x6953, 0x657A, 0x0000, 0x2000, 0x0041, 0x1600, 0x0043, 
+            0x1600, 0x0043, 0x8000, 0x003F, 0x0000, 0x5C00, 0x0300, 0x0000, 
+            0x5000, 0x7469, 0x6863, 0x0000, 0x4000, 0x00C1, 0x4000, 0x0041, 
+            0x4000, 0x0041, 0x8000, 0x003F, 0x8000, 0x5C3F, 0x0400, 0x0000, 
+            0x4F00, 0x6666, 0x6573, 0x0074, 0x0000, 0x4120, 0x0000, 0x43FA, 
+            0x0000, 0x4120, 0x0000, 0x3F80, 0x0000, 0x0000, 0x005C, 0x0005, 
+            0x0000, 0x6E45, 0x6967, 0x656E, 0x4431, 0x7972, 0x6557, 0x0074, 
+            0x0000, 0x0000, 0x0000, 0x42C8, 0x999A, 0x4241, 0x0000, 0x3F80, 
+            0x0000, 0x0000, 0x005C, 0x0006, 0x0000, 0x6544, 0x616C, 0x5F79, 
+            0x694D, 0x0078, 0x0000, 0x0000, 0x0000, 0x42C8, 0x0000, 0x41C8, 
+            0x0000, 0x3F80, 0x0000, 0x0000, 0x005C, 0x0007, 0x0000, 0x6544, 
+            0x616C, 0x5F79, 0x7953, 0x636E, 0x0000, 0x0000, 0x0000, 0x8000, 
+            0x003F, 0x8000, 0x003F, 0x8000, 0x003F, 0x8000, 0x5C3F, 0x0800, 
+            0x0000, 0x4400, 0x6C65, 0x7961, 0x465F, 0x6565, 0x6264, 0x6361, 
+            0x006B, 0x0000, 0x0000, 0x0000, 0x3F80, 0x147B, 0x3F2E, 0x0000, 
+            0x3F80, 0x0000, 0x0000, 0x005C, 0x0009, 0x0000, 0x7053, 0x6565, 
+            0x4C64, 0x0000, 0x0000, 0x0000, 0x9000, 0x0041, 0x0000, 0x0000, 
+            0x8000, 0x003F, 0x8000, 0x5C3F, 0x0A00, 0x0000, 0x5300, 0x6570, 
+            0x6465, 0x0052, 0x0000, 0x0000, 0x0000, 0x4190, 0x0000, 0x0000, 
+            0x0000, 0x3F80, 0x0000, 0x3F80, 0x005C, 0x000B, 0x0000, 0x6341, 
+            0x6563, 0x746E, 0x0000, 0x0000, 0x0000, 0x8000, 0xCD3F, 0x4CCC, 
+            0x003E, 0x8000, 0x003F, 0x0000, 0x5C00, 0x0C00, 0x0000, 0x5300, 
+            0x6570, 0x6465, 0x0041, 0x0000, 0x4120, 0x0000, 0x43FA, 0x0000, 
+            0x4130, 0x0000, 0x3F80, 0x0000, 0x0000, 0x005C, 0x000D, 0x0000, 
+            0x7053, 0x6565, 0x4264, 0x0000, 0x0000, 0x0000, 0x9000, 0x0041, 
+            0x0000, 0x0000, 0x8000, 0x003F, 0x0000, 0x5C00, 0x0E00, 0x0000, 
+            0x5300, 0x6570, 0x6465, 0x4C5F, 0x0041, 0x0000, 0x0000, 0x0000, 
+            0x447A, 0x0000, 0x0000, 0x0000, 0x3F80, 0x0000, 0x3F80, 0x005C, 
             0x000F, 0x0000, 0x7053, 0x6565, 0x5F64, 0x4152, 0x0000, 0x0000, 
-            0x0000, 0x7A00, 0x0044, 0x7A00, 0x0044, 0x8000, 0x003F, 0x8000, 
+            0x0000, 0x7A00, 0x0044, 0x0000, 0x0000, 0x8000, 0x003F, 0x8000, 
             0x003F, 0x0000
+		};
+		SNEX_METADATA_ENCODED_MOD_INFO(17)
+		{
+			0x003A, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+            0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+            0x0000
 		};
 	};
 	
@@ -591,9 +600,9 @@ template <int NV> struct instance: public mod_fx_impl::mod_fx_t_<NV>
 		auto& chain3 = this->getT(4).getT(1).getT(1).getT(0);                                 // mod_fx_impl::chain3_t<NV>
 		auto& tempo_sync8 = this->getT(4).getT(1).getT(1).getT(0).getT(0);                    // mod_fx_impl::tempo_sync8_t<NV>
 		auto& gain8 = this->getT(4).getT(1).getT(1).getT(0).getT(1);                          // core::gain<NV>
-		auto& receive = this->getT(4).getT(1).getT(1).getT(0).getT(2);                        // routing::receive<mono_cable>
+		auto& receive = this->getT(4).getT(1).getT(1).getT(0).getT(2);                        // routing::receive<NV, mono_cable<NV>>
 		auto& jdelay1 = this->getT(4).getT(1).getT(1).getT(0).getT(3);                        // jdsp::jdelay<NV>
-		auto& send1 = this->getT(4).getT(1).getT(1).getT(0).getT(4);                          // routing::send<mono_cable>
+		auto& send1 = this->getT(4).getT(1).getT(1).getT(0).getT(4);                          // routing::send<NV, mono_cable<NV>>
 		auto& dry_wet1 = this->getT(4).getT(1).getT(1).getT(0).getT(5);                       // mod_fx_impl::dry_wet1_t<NV>
 		auto& dry_path = this->getT(4).getT(1).getT(1).getT(0).getT(5).getT(0);               // mod_fx_impl::dry_path_t<NV>
 		auto& dry_wet_mixer = this->getT(4).getT(1).getT(1).getT(0).getT(5).getT(0).getT(0);  // mod_fx_impl::dry_wet_mixer_t<NV>
@@ -605,9 +614,9 @@ template <int NV> struct instance: public mod_fx_impl::mod_fx_t_<NV>
 		auto& chain1 = this->getT(4).getT(1).getT(1).getT(1);                                 // mod_fx_impl::chain1_t<NV>
 		auto& tempo_sync9 = this->getT(4).getT(1).getT(1).getT(1).getT(0);                    // mod_fx_impl::tempo_sync9_t<NV>
 		auto& gain9 = this->getT(4).getT(1).getT(1).getT(1).getT(1);                          // core::gain<NV>
-		auto& receive1 = this->getT(4).getT(1).getT(1).getT(1).getT(2);                       // routing::receive<mono_cable>
+		auto& receive1 = this->getT(4).getT(1).getT(1).getT(1).getT(2);                       // routing::receive<NV, mono_cable<NV>>
 		auto& jdelay = this->getT(4).getT(1).getT(1).getT(1).getT(3);                         // jdsp::jdelay<NV>
-		auto& send = this->getT(4).getT(1).getT(1).getT(1).getT(4);                           // routing::send<mono_cable>
+		auto& send = this->getT(4).getT(1).getT(1).getT(1).getT(4);                           // routing::send<NV, mono_cable<NV>>
 		auto& dry_wet2 = this->getT(4).getT(1).getT(1).getT(1).getT(5);                       // mod_fx_impl::dry_wet2_t<NV>
 		auto& dry_path1 = this->getT(4).getT(1).getT(1).getT(1).getT(5).getT(0);              // mod_fx_impl::dry_path1_t<NV>
 		auto& dry_wet_mixer1 = this->getT(4).getT(1).getT(1).getT(1).getT(5).getT(0).getT(0); // mod_fx_impl::dry_wet_mixer1_t<NV>
@@ -615,8 +624,7 @@ template <int NV> struct instance: public mod_fx_impl::mod_fx_t_<NV>
 		auto& wet_path1 = this->getT(4).getT(1).getT(1).getT(1).getT(5).getT(1);              // mod_fx_impl::wet_path1_t<NV>
 		auto& simple_ar1 = this->getT(4).getT(1).getT(1).getT(1).getT(5).getT(1).getT(0);     // mod_fx_impl::simple_ar1_t<NV>
 		auto& wet_gain1 = this->getT(4).getT(1).getT(1).getT(1).getT(5).getT(1).getT(1);      // core::gain<NV>
-		auto& clip = this->getT(5);                                                           // math::clip<NV>
-		auto& gain2 = this->getT(6);                                                          // core::gain<NV>
+		auto& limiter = this->getT(5);                                                        // mod_fx_impl::limiter_t
 		
 		// Parameter Connections -------------------------------------------------------------------
 		
@@ -833,28 +841,28 @@ template <int NV> struct instance: public mod_fx_impl::mod_fx_t_<NV>
 		wet_gain1.setParameterT(1, 20.); // core::gain::Smoothing
 		wet_gain1.setParameterT(2, 0.);  // core::gain::ResetValue
 		
-		clip.setParameterT(0, 1.); // math::clip::Value
-		
-		gain2.setParameterT(0, -0.0999985); // core::gain::Gain
-		gain2.setParameterT(1, 20.);        // core::gain::Smoothing
-		gain2.setParameterT(2, 0.);         // core::gain::ResetValue
+		limiter.setParameterT(0, -3);  // dynamics::limiter::Threshhold
+		limiter.setParameterT(1, 50.); // dynamics::limiter::Attack
+		limiter.setParameterT(2, 50.); // dynamics::limiter::Release
+		limiter.setParameterT(3, 1.);  // dynamics::limiter::Ratio
+		limiter.setParameterT(4, 0.);  // dynamics::limiter::Sidechain
 		
 		this->setParameterT(0, 18.);
-		this->setParameterT(1, 1.);
+		this->setParameterT(1, 0.);
 		this->setParameterT(2, 150.);
-		this->setParameterT(3, -12.);
-		this->setParameterT(4, 209.92);
+		this->setParameterT(3, 12.);
+		this->setParameterT(4, 10.);
 		this->setParameterT(5, 48.4);
-		this->setParameterT(6, 100.);
+		this->setParameterT(6, 25.);
 		this->setParameterT(7, 1.);
-		this->setParameterT(8, 0.692);
+		this->setParameterT(8, 0.68);
 		this->setParameterT(9, 0.);
 		this->setParameterT(10, 0.);
-		this->setParameterT(11, 1.);
-		this->setParameterT(12, 500.);
-		this->setParameterT(13, 13.104);
-		this->setParameterT(14, 1000.);
-		this->setParameterT(15, 1000.);
+		this->setParameterT(11, 0.2);
+		this->setParameterT(12, 11.);
+		this->setParameterT(13, 0.);
+		this->setParameterT(14, 0.);
+		this->setParameterT(15, 0.);
 		this->setExternalData({}, -1);
 	}
 	~instance() override
@@ -883,6 +891,7 @@ template <int NV> struct instance: public mod_fx_impl::mod_fx_t_<NV>
 		this->getT(4).getT(1).getT(1).getT(0).getT(5).getT(1).getT(0).setExternalData(b, index); // mod_fx_impl::simple_ar_t<NV>
 		this->getT(4).getT(1).getT(1).getT(0).getT(6).setExternalData(b, index);                 // mod_fx_impl::clock_ramp1_t<NV>
 		this->getT(4).getT(1).getT(1).getT(1).getT(5).getT(1).getT(0).setExternalData(b, index); // mod_fx_impl::simple_ar1_t<NV>
+		this->getT(5).setExternalData(b, index);                                                 // mod_fx_impl::limiter_t
 	}
 };
 }

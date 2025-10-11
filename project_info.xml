@@ -2,7 +2,7 @@
 
 <ProjectSettings>
   <Name value="Matter"/>
-  <Version value="1.1.3"/>
+  <Version value="1.1.5"/>
   <Description value=""/>
   <BundleIdentifier value="com.myCompany.product"/>
   <PluginCode value="Matt"/>
@@ -41,4 +41,6 @@
   <CompileWithPerfetto value="No"/>
   <CompileWithDebugSymbols value="No"/>
   <IncludeLorisInFrontend value="No"/>
+  <ExtraDefinitionsNetworkDll value=""/>
+  <ProjectType value="FX plugin"/>
 </ProjectSettings>
